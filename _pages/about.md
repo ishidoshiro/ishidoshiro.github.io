@@ -1,34 +1,51 @@
 ---
 layout: about
-title: about
-permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+title: About
+permalink: /en/
+subtitle: "Kamioka underground | Astroparticle physics | Detector & DAQ instrumentation"
+
+nav: true
+nav_order: 2
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p><strong>Affiliation:</strong> [Your affiliation]</p>
+    <p><strong>Location:</strong> Kamioka, Japan</p>
+    <p><strong>Email:</strong> [your-email]</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+[日本語](/)
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am an astroparticle physicist working in the **Kamioka underground laboratory environment**, with a focus on **neutrino physics and low-background experiments**.  
+My research spans (i) physics analyses in large-scale detectors (e.g., **KamLAND/KamLAND-Zen**) and (ii) **instrumentation development** for next-generation cryogenic experiments (e.g., **CryoLab**), including **readout electronics/DAQ** and **quantum sensors (TES, mKID)**.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+### Research pillars
+- **Kamioka-based astroparticle physics:** neutrinos and rare-event searches using large underground detectors.
+- **Detector & DAQ instrumentation:** front-end electronics, synchronized readout, triggering, and robust data acquisition for low-background measurements.
+- **Cryogenic sensors and calorimetry:** TES and mKID development toward high-resolution γ/X-ray detection and rare-decay searches.
+
+### Current focus
+- **KamLAND/KamLAND-Zen:** physics analyses and contributions to detector operations and performance.
+- **CryoLab and cryogenic detector R&D:** sensor/readout development and demonstration measurements toward future low-background experiments.
+
+### Collaboration interests
+I am interested in collaborations on **underground/low-background measurements**, **cryogenic calorimetry**, **DAQ/readout electronics**, and analysis topics that connect **neutrino physics** and **rare-event searches**.  
+If you would like to discuss a potential collaboration or student project, please feel free to reach out.
+
+### Selected publications
+Below are selected papers (flagship results, instrumentation, and review work).  
+For the full list, please see the **Publications** page.
