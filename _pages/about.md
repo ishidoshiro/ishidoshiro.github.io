@@ -6,7 +6,7 @@ subtitle: "神岡地下 | アストロパーティクル物理 | 検出器・DAQ
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: koji_ishidoshiro.png
   image_circular: false
   more_info: >
     <p><strong>所属:</strong> 東北大学 ニュートリノ科学研究センター</p>
