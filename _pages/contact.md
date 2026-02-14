@@ -14,11 +14,5 @@ nav_order: 5
 
 ## Affiliation / Address
 - 東北大学 ニュートリノ科学研究センター  
-- 宮城県仙台市青葉区荒巻字青葉6-3（必要なら部局住所だけ）
+- 宮城県仙台市青葉区荒巻字青葉6-3
 
-## Links
-- GitHub: （URL）
-- Google Scholar: （URL）
-- ORCID: （URL）
-- arXiv: （プロフィールURLがあれば）
-- INSPIRE-HEP: （プロフィールURLがあれば）

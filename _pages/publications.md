@@ -1,4 +1,4 @@
----
+
 layout: page
 permalink: /publications/
 title: publications
@@ -7,36 +7,39 @@ nav: true
 nav_order: 3
 ---
 
-
 {% include bib_search.liquid %}
 
 <div class="publications">
 
-<h2>KamLAND-Zen</h2>
+<h2>Selected publications</h2>
+{% bibliography --query @*[selected=true]* %}
+
+<h2>Kamioka liquid scintillator experiments</h2>
+
+<h3>KamLAND-Zen (0νββ)</h3>
 {% bibliography --query @*[keywords~=KLZ]* %}
 
-<h2>KamLAND</h2>
-{% bibliography --query @*[keywords~=KL]* %}
+<h3>KamLAND (astrophysical / low-energy neutrinos)</h3>
+{% bibliography --query @*[keywords~=KL && !keywords~=KLZ]* %}
 
-<h2>Detector / DAQ / R&amp;D</h2>
-{% bibliography --query @*[keywords~=R\&D]* %}
+<h2>Instrumentation / DAQ / Low-background R&amp;D</h2>
+{% bibliography --query @*[keywords~=R\&D || keywords~=MoGURA]* %}
 
-<h2>mKID / Cryogenic detectors</h2>
-{% bibliography --query @*[keywords~=MKID]* %}
+<h2>Cryogenic sensors (TES / mKID)</h2>
+{% bibliography --query @*[keywords~=MKID || keywords~=TES || keywords~=Cryo]* %}
 
-<h2>Pre-supernova / Supernova neutrinos</h2>
-{% bibliography --query @*[keywords~=astro]* %}
+<h2>Phenomenology / Theory collaborations</h2>
+{% bibliography --query @*[keywords~=astro || keywords~=axion || keywords~=DM]* %}
 
-<h2>Axion / Dark matter phenomenology</h2>
-{% bibliography --query @*[keywords~=axion]* %}
+<h2>Past projects</h2>
 
-<h2>CMB (QUIET)</h2>
+<h3>CMB (QUIET)</h3>
 {% bibliography --query @*[keywords~=CMB]* %}
 
-<h2>Gravitational waves (TOBA/TAMA)</h2>
-{% bibliography --query @*[keywords~=TOBA]* %}
+<h3>Gravitational waves (TOBA/TAMA)</h3>
+{% bibliography --query @*[keywords~=TOBA || keywords~=TAMA300]* %}
 
-<h2>Other / Japanese articles</h2>
+<h3>Other / Japanese articles</h3>
 {% bibliography --query @*[keywords~=misc]* %}
 
 </div>
