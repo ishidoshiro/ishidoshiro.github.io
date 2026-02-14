@@ -5,6 +5,8 @@ permalink: /cv/
 nav: true
 nav_order: 4
 ---
+## 氏名
+- **石徹白 晃治**
 
 ## 現職
 - **東北大学 ニュートリノ科学研究センター　准教授** 
@@ -41,6 +43,7 @@ nav_order: 4
 -  CRC事務局 書記 (2018年度), 総務(2019年度)
 -  日本物理学会 宇宙線・宇宙物理領域 運営委員会 宇宙線・宇宙物理領域委員 (2016年10月-2018年9月)
 -  日本物理学会 宇宙線・宇宙物理領域運営委員  (2016年10月-2017年9月)
+-  高エネルギー加速器研究機構 測定器開発センター プラットフォームD (Cryogenics + Sensors)世話人
 -  査読：Astrophys. J., Eur. Phys. J. C, Prog. Theor. Exp. Phys., J. Low Temp. Phys., Chin. Phys. C, J. Geophys. Res.: Solid Earth
 
 ## 受賞（Awards）

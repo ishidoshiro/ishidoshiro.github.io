@@ -7,17 +7,17 @@ nav_order: 6
 ---
 
 ## Invited / Plenary (selected)
-- 2025-12-11: ** Neutrino measurements and double-beta decay search with KamLAND**, Multimessenger Astronomy Beyond the Standard Model and Quantum Sensing (Q-EYES 2025), KEK, Tsukuba, Japan
-- 2025-10-28: ** Gamma-ray TES Applications for Rare Event Searches**, Merging High-Resolution X-ray Spectroscopy and Laboratory Astrophysics: Advancing Next-Generation Observational Technologies, 立教大学, Tokyo, Japan
-- 2025-09-27: ** KamLAND-Zen**, Flavor Physics Workshop2025**, 白樺リゾート 池の平ホテル
-- 2025-06-23: ** 二重β崩壊探索実験**, 学術変革(A) 「精密数値計算が切り拓く宇宙の量子物質科学」キックオフ研究会, 東北大学
-- 2022-12-01: ** New dark matter search at Kamioka**, Kashiwa Dark Matter symposium 2022, 東京大学
-- 2022-11-05: ** 超伝導センサーを用いた暗黒物質探索**, 超伝導エレクトロニクス(SCE)研究会, 東北大学
-- 2022-10-16: ** KamLANDで探る地球、太陽と宇宙**, 宇宙線で繋ぐ文明・地球環境・太陽系・銀河, 京都大学
-- 2019-08-27: ** Status of KamLAND-Zen**, 19th Lomonosov Conference on Elementary Particle Physics, Moscow State University, Moscow, Russian
-- 2019-06-15: ** Panel discussion 'pre-supernova neutrino'**, SNEWS2.0, Laurentian University, Sudbury, Canada, June 14th-17th, 2019
-- 2017-02-12: ** KamLAND**, International workshop on ‘Supernova at Hyper-Kamiokande’
-- 2015-11-20: ** Future Supernova neutrino experiments (cover Gd, Scintillator and other possibilities)**, 10th International Workshop on Neutrino-Nucleus Interactions in the Few-GeV Region (NuInt2015), 
+- 2025-12-11: **Neutrino measurements and double-beta decay search with KamLAND**, Multimessenger Astronomy Beyond the Standard Model and Quantum Sensing (Q-EYES 2025), KEK, Tsukuba, Japan
+- 2025-10-28: **Gamma-ray TES Applications for Rare Event Searches**, Merging High-Resolution X-ray Spectroscopy and Laboratory Astrophysics: Advancing Next-Generation Observational Technologies, 立教大学, Tokyo, Japan
+- 2025-09-27: **KamLAND-Zen**, Flavor Physics Workshop2025**, 白樺リゾート 池の平ホテル
+- 2025-06-23: **二重β崩壊探索実験**, 学術変革(A) 「精密数値計算が切り拓く宇宙の量子物質科学」キックオフ研究会, 東北大学
+- 2022-12-01: **New dark matter search at Kamioka**, Kashiwa Dark Matter symposium 2022, 東京大学
+- 2022-11-05: **超伝導センサーを用いた暗黒物質探索**, 超伝導エレクトロニクス(SCE)研究会, 東北大学
+- 2022-10-16: **KamLANDで探る地球、太陽と宇宙**, 宇宙線で繋ぐ文明・地球環境・太陽系・銀河, 京都大学
+- 2019-08-27: **Status of KamLAND-Zen**, 19th Lomonosov Conference on Elementary Particle Physics, Moscow State University, Moscow, Russian
+- 2019-06-15: **Panel discussion 'pre-supernova neutrino'**, SNEWS2.0, Laurentian University, Sudbury, Canada, June 14th-17th, 2019
+- 2017-02-12: **KamLAND**, International workshop on ‘Supernova at Hyper-Kamiokande’
+- 2015-11-20: **Future Supernova neutrino experiments (cover Gd, Scintillator and other possibilities)**, 10th International Workshop on Neutrino-Nucleus Interactions in the Few-GeV Region (NuInt2015), 
 
 ---
 
@@ -38,8 +38,8 @@ nav_order: 6
 - 2022-08-23: **KamLAND2へ向けたRFSoCベースのフロントエンド**, RFSoC情報交換会, 東北大学, Japan
 
 ### 2021
-- 2021-10-28–29: **RFSoCを用いたフロントエンド回路開発**, 計測システム研究会2021, 九州大学, Japan
-- 2021-05-19: **低放射能希釈冷凍機と超伝導検出器**, 新学術「地下宇宙」2021年領域研究会（オンライン）, 2021-04-19–21
+- 2021-10-28: **RFSoCを用いたフロントエンド回路開発**, 計測システム研究会2021, 九州大学, Japan
+- 2021-05-19: **低放射能希釈冷凍機と超伝導検出器**, 新学術「地下宇宙」2021年領域研究会（オンライン）
 
 
 
