@@ -3,14 +3,14 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-koji-ishidoshiro",
-    title: "Koji Ishidoshiro",
+    id: "nav-top",
+    title: "Top",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-koji-ishidoshiro",
-          title: "Koji Ishidoshiro",
+  },{id: "nav-top",
+          title: "Top",
           description: "",
           section: "Navigation",
           handler: () => {
