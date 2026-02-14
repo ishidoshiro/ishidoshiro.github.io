@@ -7,14 +7,35 @@ nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
-
 {% include bib_search.liquid %}
 
 <div class="publications">
 
-{% bibliography %}
+<h2>KamLAND-Zen</h2>
+{% bibliography --query @*[keywords~=KLZ]* %}
+
+<h2>KamLAND</h2>
+{% bibliography --query @*[keywords~=KL]* %}
+
+<h2>Detector / DAQ / R&amp;D</h2>
+{% bibliography --query @*[keywords~=R\&D]* %}
+
+<h2>mKID / Cryogenic detectors</h2>
+{% bibliography --query @*[keywords~=MKID]* %}
+
+<h2>Pre-supernova / Supernova neutrinos</h2>
+{% bibliography --query @*[keywords~=astro]* %}
+
+<h2>Axion / Dark matter phenomenology</h2>
+{% bibliography --query @*[keywords~=axion]* %}
+
+<h2>CMB (QUIET)</h2>
+{% bibliography --query @*[keywords~=CMB]* %}
+
+<h2>Gravitational waves (TOBA/TAMA)</h2>
+{% bibliography --query @*[keywords~=TOBA]* %}
+
+<h2>Other / Japanese articles</h2>
+{% bibliography --query @*[keywords~=misc]* %}
 
 </div>

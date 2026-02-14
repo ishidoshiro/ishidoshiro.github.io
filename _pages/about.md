@@ -1,20 +1,20 @@
 ---
 layout: about
 title: About
-permalink: /en/
-subtitle: "Kamioka underground | Astroparticle physics | Detector & DAQ instrumentation"
-
-nav: true
-nav_order: 2
+permalink: /
+subtitle: "神岡地下 | アストロパーティクル物理 | 検出器・DAQ開発"
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p><strong>Affiliation:</strong> [Your affiliation]</p>
-    <p><strong>Location:</strong> Kamioka, Japan</p>
-    <p><strong>Email:</strong> [your-email]</p>
+    <p><strong>所属:</strong> 東北大学 ニュートリノ科学研究センター</p>
+    <p><strong>所在地:</strong> 宮城県仙台市青葉区新巻字青葉6-3</p>
+    <p><strong>Email:</strong> koji_at_awa.tohoku..ac.jp</p>
+
+nav: true
+nav_order: 1
 
 selected_papers: true
 social: true
@@ -27,25 +27,24 @@ announcements:
 latest_posts:
   enabled: false
 ---
+[English](/en/)
 
-[日本語](/)
+私は**神岡地下環境**を拠点に、**ニュートリノ物理・暗黒物質探索**を中心とする宇宙素粒子物理学の研究を行っています。  
+**KamLAND/KamLAND-Zen**の物理解析と実験運用に加え、**CryoLab**を含む次世代実験に向けた **低バックグラウンド計測のための検出器・読出し・DAQ（データ収集）技術**、および **量子センサー（TES、mKID）**の開発を進めています。
 
-I am an astroparticle physicist working in the **Kamioka underground laboratory environment**, with a focus on **neutrino physics and low-background experiments**.  
-My research spans (i) physics analyses in large-scale detectors (e.g., **KamLAND/KamLAND-Zen**) and (ii) **instrumentation development** for next-generation cryogenic experiments (e.g., **CryoLab**), including **readout electronics/DAQ** and **quantum sensors (TES, mKID)**.
+### 研究の柱
+- **神岡地下でのアストロパーティクル物理:** 大型地下検出器を用いたニュートリノ物理・希少事象探索。
+- **検出器・読出し・DAQ開発:** フロントエンド回路、同期読出し、トリガ、安定したDAQの設計・実装。
+- **極低温センサーとカロリメトリ:** TES/mKIDを用いた高分解能γ/X線検出と、希少崩壊探索への応用。
 
-### Research pillars
-- **Kamioka-based astroparticle physics:** neutrinos and rare-event searches using large underground detectors.
-- **Detector & DAQ instrumentation:** front-end electronics, synchronized readout, triggering, and robust data acquisition for low-background measurements.
-- **Cryogenic sensors and calorimetry:** TES and mKID development toward high-resolution γ/X-ray detection and rare-decay searches.
+### 現在の主な取り組み
+- **KamLAND/KamLAND-Zen:** 物理解析、および検出器性能・運用に関わる開発。
+- **CryoLab（極低温検出器R&D）:** センサー／読出し／DAQの開発と、将来の低BG実験に向けたデモ測定。
 
-### Current focus
-- **KamLAND/KamLAND-Zen:** physics analyses and contributions to detector operations and performance.
-- **CryoLab and cryogenic detector R&D:** sensor/readout development and demonstration measurements toward future low-background experiments.
+### 共同研究・学生テーマ
+地下・低BG計測、極低温カロリメトリ、DAQ/読出し回路、ニュートリノ物理と希少事象探索をつなぐ解析課題など、幅広い共同研究に関心があります。  
+共同研究や学生テーマの相談は、お気軽にご連絡ください。
 
-### Collaboration interests
-I am interested in collaborations on **underground/low-background measurements**, **cryogenic calorimetry**, **DAQ/readout electronics**, and analysis topics that connect **neutrino physics** and **rare-event searches**.  
-If you would like to discuss a potential collaboration or student project, please feel free to reach out.
-
-### Selected publications
-Below are selected papers (flagship results, instrumentation, and review work).  
-For the full list, please see the **Publications** page.
+### 代表的な論文
+下に代表的な成果（主要結果、装置開発、レビュー）を掲載しています。  
+全リストは **Publications** ページをご覧ください。
