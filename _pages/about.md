@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: Koji Ishidoshiro
 permalink: /
 subtitle: "神岡地下 | アストロパーティクル物理 | 検出器・DAQ開発"
 
