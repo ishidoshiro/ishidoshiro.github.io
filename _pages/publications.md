@@ -14,7 +14,7 @@ nav_order: 3
 <div class="toc">
   <strong>Contents:</strong>
   <a href="#selected">Selected</a> ·
-  <a href="#kamioka">Kamioka (KamLAND / KamLAND-Zen)</a> ·
+  <a href="#kamioka">KamLAND / KamLAND-Zen</a> ·
   <a href="#instr">Instrumentation</a> ·
   <a href="#cryo-astro-pheno">Astro / Pheno</a> ·
   <a href="#past">Past projects</a> ·
@@ -24,19 +24,16 @@ nav_order: 3
 <div class="publications">
 
 <h2 id="selected">Selected publications</h2>
-<p>
-  <code>selected={true}</code> を付けた論文を表示します（<code>_bibliography/papers.bib</code>）。
-</p>
 {% bibliography --query @*[selected=true]* %}
 
 <hr/>
 
-<h2 id="kamioka">Kamioka underground (KamLAND / KamLAND-Zen)</h2>
+<h2 id="kamioka">KamLAND / KamLAND-Zen</h2>
 
-<h3>KamLAND-Zen (0&nu;&beta;&beta;)</h3>
+<h3>KamLAND-Zen</h3>
 {% bibliography --query @*[keywords~=klz]* %}
 
-<h3>KamLAND (low-energy neutrinos / rare-event searches)</h3>
+<h3>KamLAND</h3>
 {% bibliography --query @*[keywords~=kl]* %}
 
 <hr/>
@@ -46,10 +43,10 @@ nav_order: 3
 <h3>Electronics / DAQ (RFSoC/FPGA, synchronized readout, trigger)</h3>
 {% bibliography --query @*[keywords~=instrument-electronics]* %}
 
-<h3>Detector R&amp;D (e.g., SCD / containment / materials)</h3>
+<h3>Superconducting detectors (e.g., TES/MKID)</h3>
 {% bibliography --query @*[keywords~=instrument-scd]* %}
 
-<h3>Low-background infrastructure (e.g., radon mitigation, underground environment)</h3>
+<h3>Low-background</h3>
 {% bibliography --query @*[keywords~=instrument-lowbg]* %}
 
 <hr/>
