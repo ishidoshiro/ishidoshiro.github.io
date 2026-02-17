@@ -13,7 +13,6 @@ nav_order: 3
 
 <div class="toc">
   <strong>Contents:</strong>
-  <a href="#selected">Selected</a> ·
   <a href="#kamioka">KamLAND / KamLAND-Zen</a> ·
   <a href="#instr">Instrumentation</a> ·
   <a href="#cryo-astro-pheno">Astro / Pheno</a> ·
@@ -23,19 +22,9 @@ nav_order: 3
 
 <div class="publications">
 
-<h2 id="selected">Selected publications</h2>
-{% bibliography --query @*[selected=true]* %}
-
-<hr/>
-
 <h2 id="kamioka">KamLAND / KamLAND-Zen</h2>
 
-<h3>KamLAND-Zen</h3>
-{% bibliography --query @*[keywords~=klz]* %}
-
-<h3>KamLAND</h3>
 {% bibliography --query @*[keywords~=kl]* %}
-
 <hr/>
 
 <h2 id="instr">Instrumentation (Detector / Readout / DAQ / Low-BG)</h2>
