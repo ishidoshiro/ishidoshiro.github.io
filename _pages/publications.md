@@ -52,10 +52,10 @@ nav_order: 3
 
 <h2 id="past">Past projects</h2>
 
-<h3>CMB~(QUIET)</h3>
+<h3>CMB (QUIET)</h3>
 {% bibliography --query @*[keywords~=cmb]* %}
 
-<h3>Gravitational waves~(TOBA)</h3>
+<h3>Gravitational waves (TOBA)</h3>
 {% bibliography --query @*[keywords~=gw]* %}
 
 <hr/>
