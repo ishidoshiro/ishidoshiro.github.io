@@ -1,16 +1,16 @@
 metadata:
-  last_updated: '2026-02-16'
+  last_updated: '2026-02-25'
 papers:
   1ap2DL8AAAAJ:08ZZubdj9fEC:
     citations: 0
     title: Progress of Kinetic Inductance Detectors on Calcium Fluoride for Astroparticle physics
     year: '2022'
   1ap2DL8AAAAJ:1qzjygNMrQYC:
-    citations: 75
+    citations: 80
     title: Search for Majorana neutrinos with the complete KamLAND-Zen dataset
-    year: '2024'
+    year: '2025'
   1ap2DL8AAAAJ:1sJd4Hv_s6UC:
-    citations: 183
+    citations: 184
     title: 'SNEWS 2.0: a next-generation supernova early warning system for multi-messenger astronomy'
     year: '2021'
   1ap2DL8AAAAJ:3s1wT3WcHBgC:
@@ -66,7 +66,7 @@ papers:
     title: A Search for Charged Excitation of Dark Matter with the KamLAND-Zen Detector
     year: '2021'
   1ap2DL8AAAAJ:D03iK_w7-QYC:
-    citations: 37
+    citations: 38
     title: Theoretical prediction of presupernova neutrinos and their detection
     year: '2020'
   1ap2DL8AAAAJ:D_sINldO8mEC:
@@ -122,11 +122,11 @@ papers:
     title: Search for low-energy electron antineutrinos in KamLAND associated with gravitational wave events
     year: '2021'
   1ap2DL8AAAAJ:O3NaXMp0MMsC:
-    citations: 291
+    citations: 293
     title: The status of DECIGO
     year: '2017'
   1ap2DL8AAAAJ:OU6Ihb5iCvQC:
-    citations: 103
+    citations: 106
     title: Supernova model discrimination with Hyper-Kamiokande
     year: '2021'
   1ap2DL8AAAAJ:P5F9QuxV20EC:
@@ -138,7 +138,7 @@ papers:
     title: 'Hyper-Kamiokande: Neutrino Astrophysics and Status'
     year: '2025'
   1ap2DL8AAAAJ:QIV2ME_5wuYC:
-    citations: 50
+    citations: 51
     title: 'Pre-supernova neutrino emissions from ONe cores in the progenitors of core-collapse supernovae: are they distinguishable from those of Fe cores?'
     year: '2015'
   1ap2DL8AAAAJ:RHpTSmoSYBkC:
@@ -149,6 +149,10 @@ papers:
     citations: 3
     title: The Hyper-Kamiokande Experiment--Snowmass LOI
     year: '2020'
+  1ap2DL8AAAAJ:SdhP9T11ey4C:
+    citations: 0
+    title: Constraints on Fermionic Dark Matter Absorption from Radiochemical Solar-Neutrino Measurements
+    year: '2026'
   1ap2DL8AAAAJ:Se3iqnhoufwC:
     citations: 5
     title: Gravitational-wave detector realized by a superconductor
@@ -162,7 +166,7 @@ papers:
     title: A search for electron antineutrinos associated with gravitational-wave events GW150914 and GW151226 using KamLAND
     year: '2016'
   1ap2DL8AAAAJ:TQgYirikUcIC:
-    citations: 20
+    citations: 21
     title: Search for the proton decay mode  with KamLAND
     year: '2015'
   1ap2DL8AAAAJ:Tiz5es2fbqcC:
@@ -174,7 +178,7 @@ papers:
     title: Upper limit on gravitational wave backgrounds at 0.2 Hz with a torsion-bar antenna
     year: '2011'
   1ap2DL8AAAAJ:UeHWp8X0CEIC:
-    citations: 105
+    citations: 106
     title: Torsion-bar antenna for low-frequency gravitational-wave observations
     year: '2010'
   1ap2DL8AAAAJ:UebtZRa9Y70C:
@@ -190,7 +194,7 @@ papers:
     title: Development of Kinetic Inductance Detector on ZrO Substrate for Double-Beta Decay Search
     year: '2024'
   1ap2DL8AAAAJ:W7OEmFMy1HYC:
-    citations: 654
+    citations: 656
     title: Reactor on-off antineutrino measurement with KamLAND
     year: '2013'
   1ap2DL8AAAAJ:WA5NYHcadZ8C:
@@ -234,7 +238,7 @@ papers:
     title: Pre-supernova neutrino emission from massive stars and their detection
     year: '2020'
   1ap2DL8AAAAJ:bEWYMUwI8FkC:
-    citations: 37
+    citations: 38
     title: Presupernova neutrino events relating to the final evolution of massive stars
     year: '2016'
   1ap2DL8AAAAJ:cFHS6HbyZ2cC:
@@ -270,7 +274,7 @@ papers:
     title: Readout system with on-board demodulation for CMB polarization experiments using coherent polarimeter arrays
     year: '2012'
   1ap2DL8AAAAJ:f2IySw72cVMC:
-    citations: 852
+    citations: 856
     title: 'The Japanese space gravitational wave antenna: DECIGO'
     year: '2011'
   1ap2DL8AAAAJ:fPk4N6BV_jEC:
@@ -298,7 +302,7 @@ papers:
     title: Search for a Stochastic Gravitational-wave Background with Torsion-bar Antennas
     year: '2012'
   1ap2DL8AAAAJ:isC4tDSrTZIC:
-    citations: 1452
+    citations: 1453
     title: Search for Majorana neutrinos near the inverted mass hierarchy region with KamLAND-Zen
     year: '2016'
   1ap2DL8AAAAJ:kNdYIx-mwKoC:
@@ -342,11 +346,11 @@ papers:
     title: Neutrinos from Presupernova Stars
     year: '2019'
   1ap2DL8AAAAJ:sSrBHYA8nusC:
-    citations: 24
+    citations: 25
     title: Measurement of cosmic-ray muon spallation products in a xenon-loaded liquid scintillator with KamLAND
     year: '2023'
   1ap2DL8AAAAJ:t6usbXjVLHcC:
-    citations: 5
+    citations: 6
     title: Sensitivity of the Hyper-Kamiokande experiment to neutrino oscillation parameters using acceleration neutrinos
     year: '2025'
   1ap2DL8AAAAJ:tOudhMTPpwUC:
@@ -378,10 +382,10 @@ papers:
     title: Concept of KamLAND2 DAQ system
     year: '2022'
   1ap2DL8AAAAJ:xtRiw3GOFMkC:
-    citations: 133
+    citations: 176
     title: "Publisher\u2019s Note: Search for Majorana Neutrinos Near the Inverted Mass Hierarchy Region with KamLAND-Zen [Phys. Rev. Lett. 117, 082503 (2016)]"
     year: '2016'
   1ap2DL8AAAAJ:zYLM7Y9cAGgC:
-    citations: 135
+    citations: 136
     title: 'Second season QUIET observations: Measurements of the cosmic microwave background polarization power spectrum at 95 GHz'
     year: '2012'
