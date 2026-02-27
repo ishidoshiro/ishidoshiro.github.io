@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-02-25'
+  last_updated: '2026-02-27'
 papers:
   1ap2DL8AAAAJ:08ZZubdj9fEC:
     citations: 0
     title: Progress of Kinetic Inductance Detectors on Calcium Fluoride for Astroparticle physics
     year: '2022'
   1ap2DL8AAAAJ:1qzjygNMrQYC:
-    citations: 80
+    citations: 81
     title: Search for Majorana neutrinos with the complete KamLAND-Zen dataset
     year: '2025'
   1ap2DL8AAAAJ:1sJd4Hv_s6UC:
@@ -118,7 +118,7 @@ papers:
     title: Neutrino emissions in all flavors up to the pre-bounce of massive stars and the possibility of their detections
     year: '2017'
   1ap2DL8AAAAJ:NhqRSupF_l8C:
-    citations: 27
+    citations: 28
     title: Search for low-energy electron antineutrinos in KamLAND associated with gravitational wave events
     year: '2021'
   1ap2DL8AAAAJ:O3NaXMp0MMsC:
@@ -178,7 +178,7 @@ papers:
     title: Upper limit on gravitational wave backgrounds at 0.2 Hz with a torsion-bar antenna
     year: '2011'
   1ap2DL8AAAAJ:UeHWp8X0CEIC:
-    citations: 106
+    citations: 107
     title: Torsion-bar antenna for low-frequency gravitational-wave observations
     year: '2010'
   1ap2DL8AAAAJ:UebtZRa9Y70C:
@@ -194,7 +194,7 @@ papers:
     title: Development of Kinetic Inductance Detector on ZrO Substrate for Double-Beta Decay Search
     year: '2024'
   1ap2DL8AAAAJ:W7OEmFMy1HYC:
-    citations: 656
+    citations: 657
     title: Reactor on-off antineutrino measurement with KamLAND
     year: '2013'
   1ap2DL8AAAAJ:WA5NYHcadZ8C:
@@ -250,7 +250,7 @@ papers:
     title: 'Limit on Neutrinoless  Decay of  from the First Phase of KamLAND-Zen and Comparison with the Positive Claim in '
     year: '2013'
   1ap2DL8AAAAJ:dTyEYWd-f8wC:
-    citations: 7
+    citations: 8
     title: Kamland-zen
     year: '2018'
   1ap2DL8AAAAJ:dfsIfKJdRG4C:
@@ -302,11 +302,11 @@ papers:
     title: Search for a Stochastic Gravitational-wave Background with Torsion-bar Antennas
     year: '2012'
   1ap2DL8AAAAJ:isC4tDSrTZIC:
-    citations: 1453
+    citations: 1456
     title: Search for Majorana neutrinos near the inverted mass hierarchy region with KamLAND-Zen
     year: '2016'
   1ap2DL8AAAAJ:kNdYIx-mwKoC:
-    citations: 70
+    citations: 71
     title: The Q/U imaging experiment instrument
     year: '2013'
   1ap2DL8AAAAJ:kRWSkSYxWN8C:
