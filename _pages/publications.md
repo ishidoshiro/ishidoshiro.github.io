@@ -7,10 +7,6 @@ nav: true
 nav_order: 3
 ---
 
-[English](/en/publications/)
-
-
-
 {% include bib_search.liquid %}
 
 <div class="toc">
