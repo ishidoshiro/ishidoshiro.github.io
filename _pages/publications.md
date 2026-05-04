@@ -9,58 +9,17 @@ nav_order: 3
 
 [English](/en/publications/)
 
+
+
 {% include bib_search.liquid %}
 
 <div class="toc">
   <strong>Contents:</strong>
-  <a href="#kamioka">KamLAND / KamLAND-Zen</a> ·
-  <a href="#instr">Instrumentation</a> ·
-  <a href="#cryo-astro-pheno">Astro / Pheno</a> ·
-  <a href="#past">Past projects</a> ·
-  <a href="#misc">Other</a>
+  <a href="#all">All publications</a>
 </div>
 
 <div class="publications">
-
-<h2 id="kamioka">KamLAND / KamLAND-Zen</h2>
-
-{% bibliography --query @*[keywords~=kl]* %}
 <hr/>
-
-<h2 id="instr">Instrumentation (Detector / Readout / DAQ / Low-BG)</h2>
-
-<h3>Electronics / DAQ (RFSoC/FPGA, synchronized readout, trigger)</h3>
-{% bibliography --query @*[keywords~=instrument-electronics]* %}
-
-<h3>Superconducting detectors (e.g., TES/MKID)</h3>
-{% bibliography --query @*[keywords~=instrument-scd]* %}
-
-<h3>Low-background</h3>
-{% bibliography --query @*[keywords~=instrument-lowbg]* %}
-
-<hr/>
-
-<h2 id="cryo-astro-pheno">Astrophysics / Phenomenology / Theory collaborations</h2>
-
-<h3>Astrophysics (pre-SN / SN neutrinos, etc.)</h3>
-{% bibliography --query @*[keywords~=astro]* %}
-
-<h3>Phenomenology (DM / axion / constraints, etc.)</h3>
-{% bibliography --query @*[keywords~=pheno]* %}
-
-<hr/>
-
-<h2 id="past">Past projects</h2>
-
-<h3>CMB (QUIET)</h3>
-{% bibliography --query @*[keywords~=cmb]* %}
-
-<h3>Gravitational waves (TOBA)</h3>
-{% bibliography --query @*[keywords~=gw]* %}
-
-<hr/>
-
-<h2 id="misc">Other / Japanese articles</h2>
-{% bibliography --query @*[keywords~=misc]* %}
-
+<h2 id="all">All publications</h2>
+{% bibliography %}
 </div>

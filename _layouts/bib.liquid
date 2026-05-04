@@ -187,6 +187,44 @@
       {{ entry.note | strip }}
     </div>
 
+{% if entry.keywords %}
+  <div class="pub-tags">
+    {% assign tags = entry.keywords | split: "," %}
+    {% for raw_tag in tags %}
+      {% assign tag = raw_tag | strip %}
+      {% case tag %}
+        {% when "lnv" %}
+          {% assign label = "LNV / 0νββ" %}
+        {% when "dm" %}
+          {% assign label = "Dark matter" %}
+        {% when "gamma-tes" %}
+          {% assign label = "γ-ray TES" %}
+        {% when "daq" %}
+          {% assign label = "DAQ / electronics" %}
+        {% when "lowbg" %}
+          {% assign label = "Low background" %}
+        {% when "detector" %}
+          {% assign label = "Detector R&D" %}
+        {% when "nu-astro" %}
+          {% assign label = "Neutrino astrophysics" %}
+        {% when "past" %}
+          {% assign label = "Past project" %}
+        {% when "misc" %}
+          {% assign label = "Japanese / other" %}
+        {% else %}
+          {% assign label = tag %}
+      {% endcase %}
+      <span class="pub-tag pub-tag-{{ tag | slugify }}">{{ label }}</span>
+    {% endfor %}
+  </div>
+{% endif %}
+
+{% if entry.note %}
+  <div class="periodical">
+    {{ entry.note | strip }}
+  </div>
+{% endif %}
+
     <!-- Links/Buttons -->
     <div class="links">
       {% if entry.award %}

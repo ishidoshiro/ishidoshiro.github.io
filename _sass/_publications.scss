@@ -186,3 +186,22 @@
 .citation-number {
   color: var(--global-theme-color);
 }
+
+.pub-tags {
+  margin-top: 0.25rem;
+  margin-bottom: 0.35rem;
+}
+
+.pub-tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  line-height: 1.2;
+  padding: 0.12rem 0.45rem;
+  margin-right: 0.25rem;
+  margin-bottom: 0.2rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 999px;
+  color: var(--global-text-color-light);
+  background: var(--global-card-bg-color);
+  white-space: nowrap;
+}
