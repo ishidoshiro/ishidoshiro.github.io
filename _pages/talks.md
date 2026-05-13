@@ -7,6 +7,7 @@ nav_order: 6
 ---
 
 ## Invited / Plenary (selected)
+- 2026-03-16, **地下実験で迫るレプトジェネシス: -マヨラナニュートリ探索-**, 2025度第2回CRCタウンミーティング, 名古屋大学, Japan
 - 2025-12-11: **Neutrino measurements and double-beta decay search with KamLAND**, Multimessenger Astronomy Beyond the Standard Model and Quantum Sensing (Q-EYES 2025), KEK, Tsukuba, Japan
 - 2025-10-28: **Gamma-ray TES Applications for Rare Event Searches**, Merging High-Resolution X-ray Spectroscopy and Laboratory Astrophysics: Advancing Next-Generation Observational Technologies, 立教大学, Tokyo, Japan
 - 2025-09-27: **KamLAND-Zen**, Flavor Physics Workshop2025**, 白樺リゾート 池の平ホテル
