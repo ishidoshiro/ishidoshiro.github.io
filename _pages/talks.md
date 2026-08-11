@@ -7,7 +7,7 @@ nav_order: 6
 ---
 
 ## Invited / Plenary (selected)
-- 2026-03-16, **地下実験で迫るレプトジェネシス: -マヨラナニュートリ探索-**, 2025度第2回CRCタウンミーティング, 名古屋大学, Japan
+- 2026-03-16: **地下実験で迫るレプトジェネシス: -マヨラナニュートリ探索-**, 2025度第2回CRCタウンミーティング, 名古屋大学, Japan
 - 2025-12-11: **Neutrino measurements and double-beta decay search with KamLAND**, Multimessenger Astronomy Beyond the Standard Model and Quantum Sensing (Q-EYES 2025), KEK, Tsukuba, Japan
 - 2025-10-28: **Gamma-ray TES Applications for Rare Event Searches**, Merging High-Resolution X-ray Spectroscopy and Laboratory Astrophysics: Advancing Next-Generation Observational Technologies, 立教大学, Tokyo, Japan
 - 2025-09-27: **KamLAND-Zen**, Flavor Physics Workshop2025**, 白樺リゾート 池の平ホテル
@@ -23,8 +23,18 @@ nav_order: 6
 ---
 
 ## Conference talks
+### 2026
+- 2026-08-04: **神岡クライオラボ**, TRAMS2026, 鳴子観光温泉
+- 2026-06-18: **極稀現象探索による宇宙素粒子研究**, TBN2026, 東京大学
+- 2026-05-25: **γ線TESによる極稀現象探索**, 超伝導検出器・量子計測研究会, 理研
+
 ### 2025
+- 2026-03-16: **地下実験で迫るレプトジェネシス: -マヨラナニュートリ探索-**, 2025度第2回CRCタウンミーティング, 名古屋大学, Japan
+- 2025-12-11: **Neutrino measurements and double-beta decay search with KamLAND**, Multimessenger Astronomy Beyond the Standard Model and Quantum Sensing (Q-EYES 2025), KEK, Tsukuba, Japan
+- 2025-10-28: **Gamma-ray TES Applications for Rare Event Searches**, Merging High-Resolution X-ray Spectroscopy and Laboratory Astrophysics: Advancing Next-Generation Observational Technologies, 立教大学, Tokyo, Japan
+- 2025-09-27: **KamLAND-Zen**, Flavor Physics Workshop2025**, 白樺リゾート 池の平ホテル
 - 2025-07-10: **超伝導センサーによる $^{180m}$Ta の稀崩壊探索**, 研究会「量子で探る極稀事象・基礎物理」, つくば国際会議場, Japan
+- 2025-06-23: **二重β崩壊探索実験**, 学術変革(A) 「精密数値計算が切り拓く宇宙の量子物質科学」キックオフ研究会, 東北大学
 - 2025-06-20: **極稀現象探索による宇宙素粒子研究**, TBN2025, 東京大学, Japan
 - 2025-03-07: **KamLANDとKERNELの現状**, 低放射能技術研究会, 富山県民会館, Japan
 
