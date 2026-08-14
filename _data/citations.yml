@@ -1,16 +1,16 @@
 metadata:
-  last_updated: '2026-08-10'
+  last_updated: '2026-08-14'
 papers:
   1ap2DL8AAAAJ:08ZZubdj9fEC:
     citations: 0
     title: Progress of Kinetic Inductance Detectors on Calcium Fluoride for Astroparticle physics
     year: '2022'
   1ap2DL8AAAAJ:1qzjygNMrQYC:
-    citations: 146
+    citations: 147
     title: Search for Majorana neutrinos with the complete KamLAND-Zen dataset
     year: '2025'
   1ap2DL8AAAAJ:1sJd4Hv_s6UC:
-    citations: 215
+    citations: 216
     title: 'SNEWS 2.0: a next-generation supernova early warning system for multi-messenger astronomy'
     year: '2021'
   1ap2DL8AAAAJ:3s1wT3WcHBgC:
@@ -138,7 +138,7 @@ papers:
     title: Supernova model discrimination with Hyper-Kamiokande
     year: '2021'
   1ap2DL8AAAAJ:P5F9QuxV20EC:
-    citations: 464
+    citations: 465
     title: Search for the Majorana nature of neutrinos in the inverted mass ordering region with KamLAND-Zen
     year: '2023'
   1ap2DL8AAAAJ:PELIpwtuRlgC:
@@ -206,7 +206,7 @@ papers:
     title: Development of Kinetic Inductance Detector on ZrO Substrate for Double-Beta Decay Search
     year: '2024'
   1ap2DL8AAAAJ:W7OEmFMy1HYC:
-    citations: 701
+    citations: 702
     title: Reactor on-off antineutrino measurement with KamLAND
     year: '2013'
   1ap2DL8AAAAJ:WA5NYHcadZ8C:
@@ -262,7 +262,7 @@ papers:
     title: Pulsational pair-instability supernovae. II. Neutrino signals from pulsations and their detection by terrestrial neutrino detectors
     year: '2020'
   1ap2DL8AAAAJ:d1gkVwhDpl0C:
-    citations: 709
+    citations: 710
     title: 'Limit on Neutrinoless  Decay of  from the First Phase of KamLAND-Zen and Comparison with the Positive Claim in '
     year: '2013'
   1ap2DL8AAAAJ:dTyEYWd-f8wC:
@@ -282,7 +282,7 @@ papers:
     title: Hidden photon measurements using the long-baseline cavity of laser interferometric gravitational-wave detector
     year: '2015'
   1ap2DL8AAAAJ:eJXPG6dFmWUC:
-    citations: 5
+    citations: 6
     title: Search for charged excited states of dark matter with KamLAND-Zen
     year: '2024'
   1ap2DL8AAAAJ:eQOLeE2rZwMC:
@@ -294,7 +294,7 @@ papers:
     title: Performance Evaluation of Kinetic Inductance Detector on Yttria-Stabilized Zirconia Substrates with Tuned Yttria Concentrations
     year: '2026'
   1ap2DL8AAAAJ:f2IySw72cVMC:
-    citations: 910
+    citations: 911
     title: 'The Japanese space gravitational wave antenna: DECIGO'
     year: '2011'
   1ap2DL8AAAAJ:fPk4N6BV_jEC:
@@ -322,11 +322,11 @@ papers:
     title: Search for a Stochastic Gravitational-wave Background with Torsion-bar Antennas
     year: '2012'
   1ap2DL8AAAAJ:isC4tDSrTZIC:
-    citations: 1506
+    citations: 1507
     title: Search for Majorana neutrinos near the inverted mass hierarchy region with KamLAND-Zen
     year: '2016'
   1ap2DL8AAAAJ:kNdYIx-mwKoC:
-    citations: 77
+    citations: 78
     title: The Q/U imaging experiment instrument
     year: '2013'
   1ap2DL8AAAAJ:kRWSkSYxWN8C:
