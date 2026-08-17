@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-08-14'
+  last_updated: '2026-08-17'
 papers:
   1ap2DL8AAAAJ:08ZZubdj9fEC:
     citations: 0
     title: Progress of Kinetic Inductance Detectors on Calcium Fluoride for Astroparticle physics
     year: '2022'
   1ap2DL8AAAAJ:1qzjygNMrQYC:
-    citations: 147
+    citations: 149
     title: Search for Majorana neutrinos with the complete KamLAND-Zen dataset
     year: '2025'
   1ap2DL8AAAAJ:1sJd4Hv_s6UC:
@@ -78,7 +78,7 @@ papers:
     title: RFSoC-based front-end electronics for pulse detection
     year: '2024'
   1ap2DL8AAAAJ:EUQCXRtRnyEC:
-    citations: 36
+    citations: 37
     title: Supernova-scope for the direct search of supernova axions
     year: '2020'
   1ap2DL8AAAAJ:GnPB-g6toBAC:
@@ -130,7 +130,7 @@ papers:
     title: Search for low-energy electron antineutrinos in KamLAND associated with gravitational wave events
     year: '2021'
   1ap2DL8AAAAJ:O3NaXMp0MMsC:
-    citations: 309
+    citations: 310
     title: The status of DECIGO
     year: '2017'
   1ap2DL8AAAAJ:OU6Ihb5iCvQC:
@@ -330,7 +330,7 @@ papers:
     title: The Q/U imaging experiment instrument
     year: '2013'
   1ap2DL8AAAAJ:kRWSkSYxWN8C:
-    citations: 74
+    citations: 75
     title: The Japanese space gravitational wave antenna-DECIGO
     year: '2008'
   1ap2DL8AAAAJ:l7t_Zn2s7bgC:
@@ -370,7 +370,7 @@ papers:
     title: Measurement of cosmic-ray muon spallation products in a xenon-loaded liquid scintillator with KamLAND
     year: '2023'
   1ap2DL8AAAAJ:t6usbXjVLHcC:
-    citations: 25
+    citations: 26
     title: Sensitivity of the Hyper-Kamiokande experiment to neutrino oscillation parameters using accelerator neutrinos
     year: '2026'
   1ap2DL8AAAAJ:tOudhMTPpwUC:
