@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-08-17'
+  last_updated: '2026-08-21'
 papers:
   1ap2DL8AAAAJ:08ZZubdj9fEC:
     citations: 0
     title: Progress of Kinetic Inductance Detectors on Calcium Fluoride for Astroparticle physics
     year: '2022'
   1ap2DL8AAAAJ:1qzjygNMrQYC:
-    citations: 149
+    citations: 150
     title: Search for Majorana neutrinos with the complete KamLAND-Zen dataset
     year: '2025'
   1ap2DL8AAAAJ:1sJd4Hv_s6UC:
@@ -130,7 +130,7 @@ papers:
     title: Search for low-energy electron antineutrinos in KamLAND associated with gravitational wave events
     year: '2021'
   1ap2DL8AAAAJ:O3NaXMp0MMsC:
-    citations: 310
+    citations: 311
     title: The status of DECIGO
     year: '2017'
   1ap2DL8AAAAJ:OU6Ihb5iCvQC:
@@ -294,7 +294,7 @@ papers:
     title: Performance Evaluation of Kinetic Inductance Detector on Yttria-Stabilized Zirconia Substrates with Tuned Yttria Concentrations
     year: '2026'
   1ap2DL8AAAAJ:f2IySw72cVMC:
-    citations: 911
+    citations: 912
     title: 'The Japanese space gravitational wave antenna: DECIGO'
     year: '2011'
   1ap2DL8AAAAJ:fPk4N6BV_jEC:
@@ -322,7 +322,7 @@ papers:
     title: Search for a Stochastic Gravitational-wave Background with Torsion-bar Antennas
     year: '2012'
   1ap2DL8AAAAJ:isC4tDSrTZIC:
-    citations: 1507
+    citations: 1508
     title: Search for Majorana neutrinos near the inverted mass hierarchy region with KamLAND-Zen
     year: '2016'
   1ap2DL8AAAAJ:kNdYIx-mwKoC:
