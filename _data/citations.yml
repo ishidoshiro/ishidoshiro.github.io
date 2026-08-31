@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-24'
+  last_updated: '2026-08-31'
 papers:
   1ap2DL8AAAAJ:08ZZubdj9fEC:
     citations: 0
@@ -10,7 +10,7 @@ papers:
     title: Search for Majorana neutrinos with the complete KamLAND-Zen dataset
     year: '2025'
   1ap2DL8AAAAJ:1sJd4Hv_s6UC:
-    citations: 217
+    citations: 218
     title: 'SNEWS 2.0: a next-generation supernova early warning system for multi-messenger astronomy'
     year: '2021'
   1ap2DL8AAAAJ:3s1wT3WcHBgC:
@@ -134,11 +134,11 @@ papers:
     title: The status of DECIGO
     year: '2017'
   1ap2DL8AAAAJ:OU6Ihb5iCvQC:
-    citations: 116
+    citations: 117
     title: Supernova model discrimination with Hyper-Kamiokande
     year: '2021'
   1ap2DL8AAAAJ:P5F9QuxV20EC:
-    citations: 466
+    citations: 467
     title: Search for the Majorana nature of neutrinos in the inverted mass ordering region with KamLAND-Zen
     year: '2023'
   1ap2DL8AAAAJ:PELIpwtuRlgC:
@@ -206,7 +206,7 @@ papers:
     title: Development of Kinetic Inductance Detector on ZrO Substrate for Double-Beta Decay Search
     year: '2024'
   1ap2DL8AAAAJ:W7OEmFMy1HYC:
-    citations: 702
+    citations: 705
     title: Reactor on-off antineutrino measurement with KamLAND
     year: '2013'
   1ap2DL8AAAAJ:WA5NYHcadZ8C:
@@ -294,7 +294,7 @@ papers:
     title: Performance Evaluation of Kinetic Inductance Detector on Yttria-Stabilized Zirconia Substrates with Tuned Yttria Concentrations
     year: '2026'
   1ap2DL8AAAAJ:f2IySw72cVMC:
-    citations: 913
+    citations: 916
     title: 'The Japanese space gravitational wave antenna: DECIGO'
     year: '2011'
   1ap2DL8AAAAJ:fPk4N6BV_jEC:
@@ -326,7 +326,7 @@ papers:
     title: Search for Majorana neutrinos near the inverted mass hierarchy region with KamLAND-Zen
     year: '2016'
   1ap2DL8AAAAJ:kNdYIx-mwKoC:
-    citations: 79
+    citations: 80
     title: The Q/U imaging experiment instrument
     year: '2013'
   1ap2DL8AAAAJ:kRWSkSYxWN8C:
@@ -370,7 +370,7 @@ papers:
     title: Measurement of cosmic-ray muon spallation products in a xenon-loaded liquid scintillator with KamLAND
     year: '2023'
   1ap2DL8AAAAJ:t6usbXjVLHcC:
-    citations: 26
+    citations: 28
     title: Sensitivity of the Hyper-Kamiokande experiment to neutrino oscillation parameters using accelerator neutrinos
     year: '2026'
   1ap2DL8AAAAJ:tOudhMTPpwUC:
@@ -378,7 +378,7 @@ papers:
     title: A study of self-vetoing balloon vessel for liquid-scintillator detectors
     year: '2022'
   1ap2DL8AAAAJ:tS2w5q8j5-wC:
-    citations: 8
+    citations: 9
     title: Construction status and prospects of the Hyper-Kamiokande project
     year: '2022'
   1ap2DL8AAAAJ:tkaPQYYpVKoC:
