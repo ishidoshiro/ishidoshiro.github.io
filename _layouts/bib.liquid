@@ -1,5 +1,22 @@
 ---
 ---
+{% assign scholar_citation_count = null %}
+{% assign scholar_citation_key = null %}
+{% assign entry_title_for_citations = entry.title | strip_html | strip | downcase %}
+{% for paper in site.data.citations.papers %}
+  {% assign paper_key = paper[0] %}
+  {% assign paper_title_for_citations = paper[1].title | strip_html | strip | downcase %}
+  {% if entry.google_scholar_id and paper_key contains entry.google_scholar_id %}
+    {% assign scholar_citation_count = paper[1].citations %}
+    {% assign scholar_citation_key = paper_key %}
+    {% break %}
+  {% elsif paper_title_for_citations == entry_title_for_citations %}
+    {% assign scholar_citation_count = paper[1].citations %}
+    {% assign scholar_citation_key = paper_key %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
 <div class="row">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
@@ -183,50 +200,56 @@
     <div class="periodical">
       {{ periodical | strip }}
     </div>
-    <div class="periodical">
-      {{ entry.note | strip }}
-    </div>
+    {% if entry.note %}
+      <div class="periodical">
+        {{ entry.note | strip }}
+      </div>
+    {% endif %}
 
-{% if entry.keywords %}
-  <div class="pub-tags">
-    {% assign tags = entry.keywords | split: "," %}
-    {% for raw_tag in tags %}
-      {% assign tag = raw_tag | strip %}
-      {% case tag %}
-        {% when "lnv" %}
-          {% assign label = "LNV / 0νββ" %}
-        {% when "dm" %}
-          {% assign label = "Dark matter" %}
-        {% when "gamma-tes" %}
-          {% assign label = "γ-ray TES" %}
-        {% when "daq" %}
-          {% assign label = "DAQ / electronics" %}
-        {% when "lowbg" %}
-          {% assign label = "Low background" %}
-        {% when "detector" %}
-          {% assign label = "Detector R&D" %}
-        {% when "nu-astro" %}
-          {% assign label = "Neutrino astrophysics" %}
-        {% when "past" %}
-          {% assign label = "Past project" %}
-        {% when "misc" %}
-          {% assign label = "Japanese / other" %}
-        {% else %}
-          {% assign label = tag %}
-      {% endcase %}
-      <span class="pub-tag pub-tag-{{ tag | slugify }}">{{ label }}</span>
-    {% endfor %}
-  </div>
-{% endif %}
-
-{% if entry.note %}
-  <div class="periodical">
-    {{ entry.note | strip }}
-  </div>
-{% endif %}
+    {% if entry.keywords %}
+      <div class="pub-tags">
+        {% assign tags = entry.keywords | split: ',' %}
+        {% for raw_tag in tags %}
+          {% assign tag = raw_tag | strip %}
+          {% case tag %}
+            {% when 'lnv' %}
+              {% assign label = 'LNV / 0νββ' %}
+            {% when 'dm' %}
+              {% assign label = 'Dark matter' %}
+            {% when 'gamma-tes' %}
+              {% assign label = 'γ-ray TES' %}
+            {% when 'daq' %}
+              {% assign label = 'DAQ / electronics' %}
+            {% when 'lowbg' %}
+              {% assign label = 'Low background' %}
+            {% when 'detector' %}
+              {% assign label = 'Detector R&D' %}
+            {% when 'nu-astro' %}
+              {% assign label = 'Neutrino astrophysics' %}
+            {% when 'past' %}
+              {% assign label = 'Past project' %}
+            {% when 'misc' %}
+              {% assign label = 'Japanese / other' %}
+            {% else %}
+              {% assign label = tag %}
+          {% endcase %}
+          <span class="pub-tag pub-tag-{{ tag | slugify }}">{{ label }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
 
     <!-- Links/Buttons -->
     <div class="links">
+      {% if scholar_citation_count != null %}
+        <a
+          href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user={{ site.data.socials.scholar_userid }}&citation_for_view={{ scholar_citation_key }}"
+          class="citation-count btn btn-sm z-depth-0"
+          aria-label="View this publication on Google Scholar; cited by {{ scholar_citation_count }}"
+          role="button"
+        >
+          Cited by {{ scholar_citation_count }}
+        </a>
+      {% endif %}
       {% if entry.award %}
         <a class="award btn btn-sm z-depth-0" role="button">
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
@@ -419,7 +442,7 @@
       <div class="bibtex hidden">
         {% highlight bibtex %}
         {{- entry.bibtex | hideCustomBibtex -}}
-        {% endhighlight %}
+      {% endhighlight %}
       </div>
     {% endif %}
 

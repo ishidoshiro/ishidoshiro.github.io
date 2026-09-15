@@ -205,3 +205,163 @@
   background: var(--global-card-bg-color);
   white-space: nowrap;
 }
+
+// Compact, scan-friendly layout for the main publications page.
+.publications-page {
+  .publication-overview {
+    margin: 1.5rem 0;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.5rem;
+    background: var(--global-card-bg-color);
+
+    p {
+      margin: 0.75rem 0 0;
+      color: var(--global-text-color-light);
+      font-size: 0.85rem;
+    }
+  }
+
+  .publication-metrics {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .publication-metric {
+    display: flex;
+    flex-direction: column;
+
+    strong {
+      color: var(--global-text-color);
+      font-size: 1.35rem;
+      line-height: 1.2;
+    }
+
+    span {
+      margin-top: 0.15rem;
+      color: var(--global-text-color-light);
+      font-size: 0.78rem;
+    }
+  }
+
+  .publication-tools {
+    margin: 1.5rem 0 2rem;
+
+    > label {
+      display: block;
+      margin-bottom: 0.4rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+
+    .bibsearch-form-input {
+      max-width: none;
+      margin-right: 0;
+    }
+  }
+
+  .publication-topics {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.35rem 0.75rem;
+    margin-top: 0.75rem;
+    font-size: 0.82rem;
+
+    span {
+      color: var(--global-text-color-light);
+      font-weight: 600;
+    }
+  }
+
+  .publications {
+    margin-top: 0;
+
+    h2.bibliography {
+      margin: 2rem 0 0;
+      padding: 0.75rem 0 0.4rem;
+      color: var(--global-text-color);
+      font-size: 1.5rem;
+      font-weight: 400;
+      text-align: left;
+    }
+
+    ol.bibliography {
+      > li {
+        margin: 0;
+        padding: 0.9rem 0;
+        border-bottom: 1px solid var(--global-divider-color);
+
+        > .row {
+          margin-right: 0;
+          margin-left: 0;
+
+          > .abbr {
+            display: none;
+          }
+
+          > [id] {
+            flex: 0 0 100%;
+            max-width: 100%;
+            padding-right: 0;
+            padding-left: 0;
+          }
+        }
+
+        .title {
+          margin-bottom: 0.2rem;
+          font-size: 1rem;
+          line-height: 1.35;
+        }
+
+        .author,
+        .periodical {
+          font-size: 0.88rem;
+          line-height: 1.45;
+        }
+
+        .links {
+          margin-top: 0.4rem;
+
+          a.btn {
+            margin: 0.15rem 0.25rem 0.15rem 0;
+            padding: 0.16rem 0.55rem;
+            border-color: var(--global-divider-color);
+            border-radius: 999px;
+            font-size: 0.72rem;
+            text-transform: none;
+          }
+
+          a.citation-count {
+            color: var(--global-theme-color);
+            border-color: var(--global-theme-color);
+          }
+        }
+
+        .badges {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .publications-page {
+    .publication-metrics {
+      grid-template-columns: 1fr;
+      gap: 0.65rem;
+    }
+
+    .publication-metric {
+      flex-direction: row;
+      align-items: baseline;
+      gap: 0.5rem;
+
+      strong {
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
