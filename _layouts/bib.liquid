@@ -1,21 +1,26 @@
 ---
 ---
 {% assign scholar_citation_count = null %}
-{% assign scholar_citation_key = null %}
-{% assign entry_title_for_citations = entry.title | strip_html | strip | downcase %}
-{% for paper in site.data.citations.papers %}
-  {% assign paper_key = paper[0] %}
-  {% assign paper_title_for_citations = paper[1].title | strip_html | strip | downcase %}
-  {% if entry.google_scholar_id and paper_key contains entry.google_scholar_id %}
-    {% assign scholar_citation_count = paper[1].citations %}
-    {% assign scholar_citation_key = paper_key %}
-    {% break %}
-  {% elsif paper_title_for_citations == entry_title_for_citations %}
-    {% assign scholar_citation_count = paper[1].citations %}
-    {% assign scholar_citation_key = paper_key %}
-    {% break %}
-  {% endif %}
-{% endfor %}
+{% assign scholar_citation_key = site.data.publication_scholar_ids[entry.key] %}
+{% if scholar_citation_key and site.data.citations.papers[scholar_citation_key] %}
+  {% assign scholar_citation_count = site.data.citations.papers[scholar_citation_key].citations %}
+{% else %}
+  {% assign scholar_citation_key = null %}
+  {% assign entry_title_for_citations = entry.title | strip_html | strip | downcase %}
+  {% for paper in site.data.citations.papers %}
+    {% assign paper_key = paper[0] %}
+    {% assign paper_title_for_citations = paper[1].title | strip_html | strip | downcase %}
+    {% if entry.google_scholar_id and paper_key contains entry.google_scholar_id %}
+      {% assign scholar_citation_count = paper[1].citations %}
+      {% assign scholar_citation_key = paper_key %}
+      {% break %}
+    {% elsif paper_title_for_citations == entry_title_for_citations %}
+      {% assign scholar_citation_count = paper[1].citations %}
+      {% assign scholar_citation_key = paper_key %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
 
 <div class="row">
   {% if site.enable_publication_thumbnails %}
@@ -240,7 +245,7 @@
 
     <!-- Links/Buttons -->
     <div class="links">
-      {% if scholar_citation_count != null %}
+      {% if scholar_citation_key %}
         <a
           href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user={{ site.data.socials.scholar_userid }}&citation_for_view={{ scholar_citation_key }}"
           class="citation-count btn btn-sm z-depth-0"
@@ -248,6 +253,15 @@
           role="button"
         >
           Cited by {{ scholar_citation_count }}
+        </a>
+      {% else %}
+        <a
+          href="https://scholar.google.com/scholar?q={{ entry.title | strip_html | url_encode }}"
+          class="citation-count btn btn-sm z-depth-0"
+          aria-label="Search citations for this publication on Google Scholar; count unavailable"
+          role="button"
+        >
+          Cited by —
         </a>
       {% endif %}
       {% if entry.award %}
